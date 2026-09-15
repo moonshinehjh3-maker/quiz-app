@@ -42,3 +42,6 @@ next-env.d.ts
 
 .vercel
 .env*
+
+# 예제 파일은 커밋한다 (위의 .env* 규칙에 대한 예외)
+!.env.local.example
