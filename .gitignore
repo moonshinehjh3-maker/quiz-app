@@ -45,3 +45,9 @@ next-env.d.ts
 
 # 예제 파일은 커밋한다 (위의 .env* 규칙에 대한 예외)
 !.env.local.example
+
+# 중첩 워크스페이스(video/)의 의존성도 제외한다 — 위의 /node_modules 는 루트 전용
+node_modules/
+
+# 저장소 안에 중첩 클론된 사본 (자체 .git 을 가짐). 커밋 대상이 아니다.
+/quiz-app/

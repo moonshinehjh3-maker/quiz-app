@@ -1,0 +1,23 @@
+{
+  "name": "quiz-app-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI 퀴즈 생성기 소개영상 (Remotion)",
+  "scripts": {
+    "studio": "remotion studio --port 3100",
+    "render": "remotion render Intro ../out/intro.mp4 --crf=18",
+    "still": "remotion still Intro"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.524",
+    "@remotion/google-fonts": "4.0.524",
+    "@remotion/transitions": "4.0.524",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "remotion": "4.0.524"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "typescript": "^5"
+  }
+}

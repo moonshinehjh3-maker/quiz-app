@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Remotion 영상 프로젝트는 독립 워크스페이스라 Next 규칙 대상이 아니다.
+    "video/**",
   ]),
 ]);
 
