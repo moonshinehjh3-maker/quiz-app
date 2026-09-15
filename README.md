@@ -5,14 +5,14 @@
 
 **배포 주소 →** https://ai-quiz-eight-umber.vercel.app
 
+![소개영상 — 주제 입력부터 채점·해설까지](docs/intro.gif)
+
+> 위 GIF 는 화질을 낮춘 것이다. 원본은 **[intro.mp4](docs/intro.mp4)** (1920×1080 · 30fps · 53초 · 무음).
+> Remotion 으로 만들었고 소스는 [`video/`](video) 에 있다.
+
+---
+
 ![홈 화면](docs/screenshots/home.png)
-
-## 소개영상
-
-53초짜리 소개영상. 주제 입력부터 채점·해설까지의 흐름을 담았다.
-Remotion 으로 만들었고 소스는 [`video/`](video) 에 있다.
-
-> **[▶ 영상 보기](docs/intro.mp4)** — 1920×1080 · 30fps · 53초 · 무음(자막)
 
 ---
 
